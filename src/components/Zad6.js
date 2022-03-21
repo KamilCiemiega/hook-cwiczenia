@@ -8,7 +8,7 @@ export const Zad6 = () => {
     <div>
       <h1>Zad6</h1>
       <button onClick={themeCtx.changeTheme}>Change</button>
-      <div className={`${themeCtx.theme ? "dark" : "light"}`}></div>
+      <div className={`${themeCtx.theme ? "dark" : "light"}`}>sasada</div>
     </div>
   );
 };

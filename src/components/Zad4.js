@@ -5,7 +5,7 @@ export const Zad4 = () => {
   const { isLoading, data, sendRequest } = useHttp();
 
   useEffect(() => {
-    sendRequest("https://jsonplaceholder.typicode.com");
+    sendRequest("https://jsonplaceholder.typicode.com/posts");
   }, []);
 
   return (

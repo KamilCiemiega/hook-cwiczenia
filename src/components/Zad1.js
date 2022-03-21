@@ -27,6 +27,7 @@ export const Zad1 = () => {
   const handleSexChange = () => {
     setInitialState((prevValue) => ({
       ...prevValue,
+      sex: prevValue.human.sex === "man" ? "woman" : "man",
     }));
   };
 
